@@ -2,8 +2,9 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Academico_.Models;
 
-namespace Academico_.Controllers;
-
+namespace Academico_.Controller
+/*Melissa Ferreira*/
+ 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
