@@ -1,34 +1,28 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Academico_.Models;
 
-namespace Academico_.Controller
-/*Melissa Ferreira*/
- 
-public class HomeController : Controller
+namespace SistemaEscolar.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        // NALBERT NATHAN LOPES RODRIGUES //
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
 
-    // NALBERT NATHAN LOPES RODRIGUES //
-    
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
 }
+

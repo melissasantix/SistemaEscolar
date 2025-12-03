@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Academico_.Models;
+namespace SistemaEscolar.Models;
 
 public partial class Usuario
 {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Academico_.Models;
+namespace SistemaEscolar.Models;
 
-public partial class Notum
+public partial class Nota
 {
     public int IdNota { get; set; }
 

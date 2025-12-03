@@ -1,0 +1,28 @@
+<h1>Notas</h1>
+<a href="/Notas/Create">Adicionar Nota</a>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nota</th>
+            <th>ID Aluno</th>
+            <th>ID Disciplina</th>
+            <th>ID Professor</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (var n in Model)
+        {
+            <tr>
+                <td>@n.IdNota</td>
+                <td>@n.ValorNota</td>
+                <td>@n.IdAluno</td>
+                <td>@n.IdDisciplina</td>
+                <td>@n.IdProfessor</td>
+                <td><a href="/Notas/Edit/@n.IdNota">Editar</a> | <a href="/Notas/Delete/@n.IdNota">Excluir</a></td>
+            </tr>
+        } *@
+    </tbody>
+</table>
+<link rel="stylesheet" href="~/css/style.css" />

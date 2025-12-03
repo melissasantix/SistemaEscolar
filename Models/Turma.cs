@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Academico_.Models;
+namespace SistemaEscolar.Models;
 
 public partial class Turma
 {
@@ -13,7 +13,7 @@ public partial class Turma
 
     public virtual ICollection<Aluno> Alunos { get; set; } = new List<Aluno>();
 
-    public virtual ICollection<Notum> Nota { get; set; } = new List<Notum>();
+    public virtual ICollection<Nota> Nota { get; set; } = new List<Nota>();
 
     public virtual ICollection<Presenca> Presencas { get; set; } = new List<Presenca>();
 

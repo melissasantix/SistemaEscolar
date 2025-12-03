@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Academico_.Models;
+using SistemaEscolar.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Academico_.Contexts;
+namespace SistemaEscolar.Contexts;
 
 public partial class SistemaEscolarContext : DbContext
 {
@@ -18,7 +18,7 @@ public partial class SistemaEscolarContext : DbContext
 
     public virtual DbSet<Aluno> Alunos { get; set; }
 
-    public virtual DbSet<Notum> Nota { get; set; }
+    public virtual DbSet<Nota> Nota { get; set; }
 
     public virtual DbSet<Presenca> Presencas { get; set; }
 
@@ -58,7 +58,7 @@ public partial class SistemaEscolarContext : DbContext
                 .HasConstraintName("FK__aluno__idUsuario__6B24EA82");
         });
 
-        modelBuilder.Entity<Notum>(entity =>
+        modelBuilder.Entity<Nota>(entity =>
         {
             entity.HasKey(e => e.IdNota).HasName("PK__nota__AD5F462E5EE20ECA");
 

@@ -1,0 +1,26 @@
+<h1>Faltas</h1>
+<a href="/Faltas/Create">Adicionar Falta</a>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ID Aluno</th>
+            <th>ID Disciplina</th>
+            <th>Quantidade</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (var f in Model)
+        {
+            <tr>
+                <td>@f.IdFalta</td>
+                <td>@f.IdAluno</td>
+                <td>@f.IdDisciplina</td>
+                <td>@f.Quantidade</td>
+                <td><a href="/Faltas/Edit/@f.IdFalta">Editar</a> | <a href="/Faltas/Delete/@f.IdFalta">Excluir</a></td>
+            </tr>
+        } *@
+    </tbody>
+</table>
+<link rel="stylesheet" href="~/css/style.css" />

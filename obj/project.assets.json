@@ -4708,23 +4708,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nalbert.nlrodrigues\\.nuget\\packages\\": {},
+    "C:\\Users\\melissa.fsantos11\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nalbert.nlrodrigues\\Desktop\\back-end\\SistemaEscolar\\Academico+.csproj",
+      "projectUniqueName": "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\Projeto\\SistemaEscolar\\Academico+.csproj",
       "projectName": "Academico+",
-      "projectPath": "C:\\Users\\nalbert.nlrodrigues\\Desktop\\back-end\\SistemaEscolar\\Academico+.csproj",
-      "packagesPath": "C:\\Users\\nalbert.nlrodrigues\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nalbert.nlrodrigues\\Desktop\\back-end\\SistemaEscolar\\obj\\",
+      "projectPath": "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\Projeto\\SistemaEscolar\\Academico+.csproj",
+      "packagesPath": "C:\\Users\\melissa.fsantos11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\melissa.fsantos11\\Desktop\\Back End\\Projeto\\SistemaEscolar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nalbert.nlrodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\melissa.fsantos11\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
